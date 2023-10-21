@@ -3,8 +3,7 @@
 
 <head>
     <title>My Portofolio</title>
-    <link rel="stylesheet" href="stylesheet.css" />
-    <!-- <link rel="stylesheet" href="responsive.css" /> -->
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,20 +13,20 @@
 
 <body>
     <header class="header">
-        <a href="/" class="logo">🧕🏻​</a>
+        <a href="/" class="logo">MyPort.​</a>
         <nav class="navbar">
-            <a href="home">Home</a>
-            <a href="">About</a>
-            <a href="">Skills</a>
-            <a href="">Contact</a>
-            <a href="" target="_blank" class="btn-box" id="cv">Resume</a>
+            <a href="#homes">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skills</a>
+            <a href="#contact">Contact</a>
+            <a href="images/myCVATS.png" target="_blank" class="btn-box" id="cv">Resume</a>
         </nav>
     </header>
 
     <!-- Ini bagian Home -->
-    <section class="home">
+    <section id="homes" class="home" >
         <div class="home-image">
-            <img src="diriku3.png" alt="Anisa Fatin Idelia" width="450">
+            <img src="images/diriku3.png" alt="Anisa Fatin Idelia" width="450">
         </div>
         <div class="home-content">
             <h3>Hello, It's Me</h3>
@@ -43,12 +42,12 @@
                 <a href="https://www.facebook.com/anisa.fatin.9085" target="_blank"><i class='bx bxl-facebook'></i></a>
                 <a href="https://t.me/anisaideliaa" target="_blank" ><i class='bx bxl-telegram'></i></a>
             </div>
-            <a href="#" class="btn-box">More About Me</a>
+            <a href="#about" class="btn-box">More About Me</a>
         </div>
     </section>
 
     <!-- Ini bagian About -->
-    <section class="about" id="about">
+    <section  id="about" class="about">
         <div class="about-text">
             <h2>About<span>Me</span></h2>
             <p>Perkenalkan saya Anisa Fatin Idelia mahasiswi semester 3 dari Institut Teknologi Sepuluh Nopember pada
@@ -62,10 +61,10 @@
 
         </div>
         <div class="about-img">
-            <img src="diriku3.png" alt="Anisa Fatin Idelia" width="450">
+            <img src="images/dirikulagi.png" alt="Anisa Fatin Idelia" width="450">
         </div>
     </section>
-    <h1 class="sub-title"><span>My</span>Skills & Education</h1>
+    <h1 id="skill" class="sub-title"><span>My</span>Skills & Education</h1>
 
     <!-- Ini bagian Skills -->
     <section id="skills">
@@ -125,26 +124,26 @@
         </div>
     </section>
 
-    <section class="contact" id="contact">
+    <section id="contact" class="contact" >
         <div class="contact-text">
             <h1>Contact <span>Me</span></h1>
-            <h4>Lets Work Together</h4>
+            <h4>Let's Work Together</h4>
             <p></p>
             <div class="contact-icons">
-                <li><i class='bx bx-phone'></i></li>
-                <li><i class='bx bx-message-rounded-dots'></i></li>
-                <li><i class='bx bxs-envelope'></i></li>
-                <li><i class='bx bxl-linkedin'></i></li>
+                <li><i class='bx bxl-instagram'></i></li>
+                <li><i class='bx bxl-whatsapp'></i></li>
+                <li><i class='bx bxl-facebook'></i></li>
+                <li><i class='bx bxl-telegram'></i></li>
             </div>
         </div>
 
         <div class="contact-form">
-            <form action="">
+            <form action="success-form.html">
                 <input type="" placeholder="Enter Your Name" required>
                 <input type="email" placeholder="Enter Your Email" required>
                 <input type="" placeholder="Enter Your Subject" required>
-                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Subject"></textarea>
-                <input type="submit" value="Submit" class="send" id="submit">
+                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                <input type="submit" value="submit" class="send" id="submit">
             </form>
         </div>
     </section>
