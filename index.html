@@ -123,26 +123,32 @@
             </div>
         </div>
     </section>
-
+    <!-- Ini bagian Contact -->
     <section id="contact" class="contact" >
         <div class="contact-text">
             <h1>Contact <span>Me</span></h1>
-            <h4>Let's Work Together</h4>
-            <p></p>
-            <div class="contact-icons">
-                <li><i class='bx bxl-instagram'></i></li>
-                <li><i class='bx bxl-whatsapp'></i></li>
-                <li><i class='bx bxl-facebook'></i></li>
-                <li><i class='bx bxl-telegram'></i></li>
-            </div>
+            <h4>Ask Any Question!</h4>
         </div>
 
         <div class="contact-form">
-            <form action="success-form.html">
-                <input type="" placeholder="Enter Your Name" required>
-                <input type="email" placeholder="Enter Your Email" required>
-                <input type="" placeholder="Enter Your Subject" required>
-                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+            <form id="form" action="success-form.html" method="GET">
+                <div class="input-control">
+                    <input id="username" name='username' type="text" placeholder="Enter Your Name">
+                    <div class="error"></div>   
+                </div>
+                <div class="input-control">
+                    <input id="email" name='username' type="text" placeholder="Enter Your Email">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <input id="subject" name='username' type="text" placeholder="Enter Your Subject">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <textarea id="message" name='username' cols="40" rows="10" placeholder="Enter Your Message"></textarea>
+                    <div class="error"></div>
+                </div>
+            
                 <input type="submit" value="submit" class="send" id="submit">
             </form>
         </div>
